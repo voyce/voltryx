@@ -1,0 +1,22 @@
+{
+  "name": "linktree-github-pages",
+  "version": "1.0.0",
+  "description": "A simple Linktree setup hosted on GitHub Pages to showcase social media links.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'No build step required'"
+  },
+  "keywords": [
+    "linktree",
+    "github",
+    "pages",
+    "social media"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

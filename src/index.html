@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Linktree</title>
+    <!-- Google Fonts: Saira -->
+    <link href="https://fonts.googleapis.com/css?family=Saira:400,700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <style>
+        body {
+            font-family: 'Saira', Arial, sans-serif;
+        }
+        .link-list {
+            list-style: none;
+            padding: 0;
+        }
+        .link-list li {
+            margin: 10px 0;
+        }
+        .link-list a {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: inherit;
+        }
+        .link-list i {
+            font-size: 1.2em;
+        }
+        .circle-logo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="voltryx Logo" height="200" width="200"  class="circle-logo">
+        <h1>welcome to voltryx</h1>
+        <p>connect with me:</p>
+        <ul class="link-list">
+            <li>
+                <a href="https://instagram.com/voltryx.music" target="_blank">
+                    <i class="fab fa-instagram" aria-hidden="true"></i> Instagram
+                </a>
+            </li>
+            <li>
+                <a href="https://tiktok.com/@.voltryx" target="_blank">
+                    <i class="fab fa-tiktok" aria-hidden="true"></i> TikTok
+                </a>
+            </li>
+            <li>
+                <a href="https://soundcloud.com/voltryx" target="_blank">
+                    <i class="fab fa-soundcloud" aria-hidden="true"></i> SoundCloud
+                </a>
+            </li>
+            <li>
+                <a href="https://youtube.com/@voltryxmusic" target="_blank">
+                    <i class="fab fa-youtube" aria-hidden="true"></i> YouTube
+                </a>
+            </li>
+        </ul>
+    </div>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
